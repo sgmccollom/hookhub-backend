@@ -3,9 +3,9 @@
 const { Pool } = require('pg')
 
 const pool = new Pool({
-  database: 'requestbin',
-  user: 'stephanie',
-  password: 'root',
+  database: '',
+  user: '',
+  password: '',
 });
 
 function checkPGConnection() {
